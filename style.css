@@ -312,7 +312,7 @@ messageSender__top img {
     border-radius: 20px;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     .sidebar {
         display: none;
     }
@@ -338,14 +338,14 @@ messageSender__top img {
     }
 }
 
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) {
     .storyReel {
         width: 100%;
         overflow-x: scroll;
     }
 }
 
-@media (min-width: 769px) and  (max-width: 1440px){
+@media screen and (min-width: 769px) and  (max-width: 1440px){
     .feed {
         width: 50%;
         padding: 10px 50px;
